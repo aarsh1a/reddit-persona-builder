@@ -1,43 +1,37 @@
-# Reddit User Persona Builder
+# reddit user persona builder
 
-A Python tool that analyzes a Reddit user's post and comment history to generate a detailed marketing-style persona using Hugging Face's free LLM APIs.
+a python tool that analyzes a reddit user's post and comment history to generate a detailed marketing-style persona using hugging face's free llm apis.
 
-## Features
+## features
 
-- Fetches user's recent posts & comments via the Reddit API
-- Analyzes content using free LLM models from Hugging Face
-- Generates detailed personas with demographic info, interests, motivations, etc.
-- Includes citations from posts/comments that support each trait
-- Outputs a professionally formatted persona document
+- fetches user's recent posts & comments via the reddit api
+- analyzes content using free llm models from hugging face
+- generates detailed personas with demographic info, interests, motivations, etc.
+- includes citations from posts/comments that support each trait
+- outputs a professionally formatted persona document
 
-## Setup
+## setup
 
-### Prerequisites
+### prerequisites
 
-- Python 3.8+
-- Reddit API credentials
-- Hugging Face account (free)
+- python 3.8+
+- reddit api credentials
+- hugging face account (free)
+### installation
 
-### Installation
+1. clone this repository
 
-1. Clone this repository
+2. install dependencies
 
-2. Install dependencies
+3. create a `.env` file with your api credentials
 
-3. Create a `.env` file with your API credentials
+## usage
 
-## Usage
+run the script with a reddit username:
 
-Run the script with a Reddit username:
+the generated persona will be saved as `persona.txt` in the current directory.
 
+## example personas
 
-The generated persona will be saved as `persona.txt` in the current directory.
-
-## Example Personas
-
-The repository includes example personas generated for the following users:
+the repository includes example personas generated for the following users:
 - [spez](/persona_spez.txt)
-
-## License
-
-MIT
